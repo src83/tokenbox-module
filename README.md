@@ -116,7 +116,7 @@ bash modules/tokenbox/bin/01-generator.sh
 bash modules/tokenbox/bin/02-utest.sh
 ```
 Результат: общая информация о факте нахождения дубликатов в консоли.
-Время: ~12 min
+Время: ~7 min
 
 
 ### 3. Перевод токенов из txt в csv (для загрузки в ClickHouse)
@@ -124,7 +124,7 @@ bash modules/tokenbox/bin/02-utest.sh
 bash modules/tokenbox/bin/03-txt2csv.sh
 ```
 Результат: выходные файлы с токенами появится в папке "data/csv".
-Время: ~5 min
+Время: ~3 min
 
 
 ### 4. Выполнение миграций
@@ -148,7 +148,7 @@ bash modules/tokenbox/bin/05-dbtest.sh
 bash modules/tokenbox/bin/06-upload.sh
 ```
 Результат: Загруженные токены в таблицы ClickHouse.
-Время: ~2.5 min
+Время: ~2 min
 
 
 ### 7. Удаление с диска токенов в виде txt и csv (опционально)
