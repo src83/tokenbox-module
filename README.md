@@ -49,7 +49,7 @@ ProjectRootFolder
 git clone git@github.com:src83/tokenbox-module.git
 ```
 
-2. В файле `.gitignore` целевого проекта добавить строчку `/modules/tokenbox/data`
+2. В файле `.gitignore` целевого проекта добавить строчку `/modules`
 
 3. В папке `config` (в **модуле** tokenbox):
    * указать нужные креды в `clickhouse.sh`
